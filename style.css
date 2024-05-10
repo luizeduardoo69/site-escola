@@ -1,17 +1,13 @@
-*(
-    
-) 
+*{
+    margin: 0;
+    padding: 0;
 
-
-
-.Cabeçalho {
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
 }
 
-.cabeçalho-imagem(
-
-)
-.cabeçalho-lista(
-    
-)
+.Cabecalho-imagem {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
